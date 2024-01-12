@@ -100,7 +100,7 @@ function Header({ handleOpenSignInModal }: Props) {
                 </SignInButtonRestyled>
               ) : (
                 <SignInButtonRestyled href="#" onClick={handleOpenSignInModal}>
-                  SignIn
+                  Sign In
                 </SignInButtonRestyled>
               )}
             </HeaderWrapper>
@@ -124,7 +124,7 @@ function Header({ handleOpenSignInModal }: Props) {
               </SignInButtonRestyled>
             ) : (
               <SignInButtonRestyled href="#" onClick={handleOpenSignInModal}>
-                SignIn
+                Sign In
               </SignInButtonRestyled>
             )}
             <MenuIconButtonRestyled
